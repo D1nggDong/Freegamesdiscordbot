@@ -9,10 +9,8 @@ from typing import Optional
 from .stores import EpicGamesStore, SteamStore
 from .stores.base import FreeGame
 
-from keep_alive import keep_alive 
 
 
-keep_alive()
 class FreeGamesBot(commands.Bot):
     def __init__(self):
         intents = discord.Intents.default()
